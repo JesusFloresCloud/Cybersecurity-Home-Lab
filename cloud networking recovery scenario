@@ -57,3 +57,6 @@ This allows AWS to manage:
 - Gateway configuration
 - DNS settings
 - Network routing
+
+## Preventive Action
+If a static private IP is required, assign it through the AWS ENI configuration rather than manually setting a static IP inside Windows.
